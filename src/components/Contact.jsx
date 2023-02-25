@@ -25,14 +25,22 @@ const Contact = () => {
 						</h4>
 						<div className="flex items-center space-x-6 mt-2">
 							<a
-								href="#"
-								className="text-gray-700 font-semibold underline hover:text-blue-400">
+								href="https://github.com/ikennaezef"
+								target="_blank"
+								rel="noreferrer"
+								className="text-gray-700 font-semibold underline hover:text-blue-500">
 								Github
 							</a>
-							<a href="#" className="text-gray-700 font-semibold underline">
+							<a
+								href="https://twitter.com/lkennae_"
+								target="_blank"
+								className="text-gray-700 font-semibold underline hover:text-blue-500">
 								Twitter
 							</a>
-							<a href="#" className="text-gray-700 font-semibold underline">
+							<a
+								href="https://linkedin.com/in/ikenna-eze-29b245159"
+								rel="noreferrer"
+								className="text-gray-700 font-semibold underline hover:text-blue-500">
 								LinkedIn
 							</a>
 						</div>
