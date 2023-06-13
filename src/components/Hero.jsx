@@ -72,7 +72,7 @@ const Hero = () => {
 							See My Works
 						</a>
 						<a
-							href="https://drive.google.com/file/d/13WZBUrkz8WWOxiy-XZ7NKPKBxxaYMkL-/view?usp=share_link"
+							href="https://drive.google.com/file/d/1n7PF9aBTawWOlug6-7pQhWonbtgPKEso/view?usp=sharing"
 							className="border-2 border-gray-900 text-gray-900 font-semibold text-sm sm:text-base w-fit px-4 py-2 sm:px-6 hover:scale-105 transition-transform "
 							ref={resumeBtn}>
 							My Resume
