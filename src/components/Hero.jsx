@@ -60,9 +60,9 @@ const Hero = () => {
 						</span>
 					</h2>
 					<p className="text-sm text-gray-500" ref={pText}>
-						I create interactive web experiences using frontend technology. I am
-						interested in user experience, accessibility, design systems,
-						gaming, and web animations.
+						I create interactive web experiences using modern technologies. I am
+						interested in user experience, accessibility, design systems, and
+						web animations.
 					</p>
 					<div className="flex space-x-8 mt-8">
 						<a
