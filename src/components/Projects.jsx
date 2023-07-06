@@ -19,6 +19,17 @@ const Projects = () => {
 						<SingleProject key={project.id} project={project} />
 					))}
 				</div>
+				<div className="my-2">
+					<h4 className="text-center font-medium text-gray-800">
+						You can check out more of my works{" "}
+						<a
+							href="https://github.com/ikennaezef/"
+							target="_blank"
+							className="text-blue-700 underline">
+							HERE
+						</a>
+					</h4>
+				</div>
 			</div>
 		</section>
 	);

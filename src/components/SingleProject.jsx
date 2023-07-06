@@ -21,9 +21,9 @@ const SingleProject = ({ project }) => {
 
 	return (
 		<div
-			className="single-project flex flex-col-reverse md:flex-row mb-12 max-w-4xl mx-auto shadow-sm border border-gray-100 bg-gray-50"
+			className="single-project flex flex-col-reverse md:flex-row mb-12 max-w-5xl mx-auto shadow-sm border border-gray-100 bg-gray-50"
 			ref={proj}>
-			<div className="w-full md:w-3/5 p-4">
+			<div className="w-full md:w-1/2 p-4">
 				<span className="mb-6 font-serif text-xl text-gray-400">
 					0{project.id}
 				</span>
@@ -59,7 +59,7 @@ const SingleProject = ({ project }) => {
 					)}
 				</div>
 			</div>
-			<div className="w-full md:w-2/5">
+			<div className="w-full md:w-1/2">
 				<img
 					src={project.image}
 					alt={project.title}

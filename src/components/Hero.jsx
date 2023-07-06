@@ -56,7 +56,7 @@ const Hero = () => {
 						</span>
 						<br />{" "}
 						<span className="full-clip" ref={span2}>
-							Frontend Developer
+							Fullstack Developer
 						</span>
 					</h2>
 					<p className="text-sm text-gray-500" ref={pText}>
@@ -72,7 +72,7 @@ const Hero = () => {
 							See My Works
 						</a>
 						<a
-							href="https://drive.google.com/file/d/13WZBUrkz8WWOxiy-XZ7NKPKBxxaYMkL-/view?usp=share_link"
+							href="https://drive.google.com/file/d/1P3oSy4ORlTJzE4_mndLhKuxosc0SY16N/view?usp=sharing"
 							className="border-2 border-gray-900 text-gray-900 font-semibold text-sm sm:text-base w-fit px-4 py-2 sm:px-6 hover:scale-105 transition-transform "
 							ref={resumeBtn}>
 							My Resume

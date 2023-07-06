@@ -1,6 +1,24 @@
 export const projects = [
 	{
 		id: 1,
+		title: "Beatbox Music",
+		description: "A fullstack music streaming app",
+		tools: ["React", "Redux", "NodeJS", "ExpressJS", "MongoDB"],
+		image: "/beatbox.png",
+		liveLink: "https://beatbox-music.vercel.app",
+		githubLink: "https://github.com/ikennaezef/beatbox_music_app",
+	},
+	{
+		id: 2,
+		title: "SocialStream",
+		description: "A fullstack social media app",
+		tools: ["React", "Redux", "NodeJS", "ExpressJS", "MongoDB"],
+		image: "/socialstream_home.png",
+		liveLink: "https://socialstream.vercel.app",
+		githubLink: "https://github.com/ikennaezef/socialstream-frontend",
+	},
+	{
+		id: 3,
 		title: "Zenit Stores",
 		description: "A modern ecommerce store",
 		tools: ["NextJS", "Chakra UI", "Sanity CMS"],
@@ -9,7 +27,7 @@ export const projects = [
 		githubLink: "https://github.com/ikennaezef/zenit-ecommerce",
 	},
 	{
-		id: 2,
+		id: 4,
 		title: "Movio V2",
 		description:
 			"A web app where users can see trending movies and their trailers, search for TV shows and bookmark them for later reference",
@@ -19,7 +37,7 @@ export const projects = [
 		githubLink: "https://github.com/ikennaezef/movio-v2",
 	},
 	{
-		id: 3,
+		id: 5,
 		title: "Anoni",
 		description:
 			"An interactive anonymous messaging platform where users can register, create a link and share to their peers to receive anonymous messages.",
@@ -28,17 +46,7 @@ export const projects = [
 		liveLink: "https://anoni.vercel.app",
 	},
 	{
-		id: 4,
-		title: "Cryptogazer",
-		description:
-			"A web application where users can view live data about cryptocurrencies.",
-		tools: ["React JS", "Chakra UI", "React Router"],
-		image: "/crypto.png",
-		liveLink: "https://cryptogazer.netlify.app",
-		githubLink: "https://github.com/ikennaezef/cryptogazer/",
-	},
-	{
-		id: 5,
+		id: 6,
 		title: "WorldieChat",
 		description:
 			"A chat application where users can chat in different rooms. Comes with authentication and includes different color themes.",
